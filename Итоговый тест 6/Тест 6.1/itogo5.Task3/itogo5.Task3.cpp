@@ -8,7 +8,7 @@ int main()
 	std::cout << "Hello World!\n";
 
 	int a = INT32_MAX;
-	int b = 1233;
+	int b = INT32_MAX - 2;
 	std::cout << "a = " << a << "\tb = " << b << std::endl;
 	
 	swap(&a, &b);
