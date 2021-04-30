@@ -85,6 +85,8 @@ int main()
 	{
 		std::cout << getStudentData(&students[i]) << std::endl;
 	}
+
+	delete[] students;
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
