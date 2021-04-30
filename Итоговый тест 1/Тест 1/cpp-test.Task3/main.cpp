@@ -1,7 +1,7 @@
 ﻿// ConsoleApplication.AndWhat.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
 
 #include <iostream>
-#include "io.cpp"	
+#include "io.cpp"
 
 int calculate(char symbol, int firstNumber, int secondNumber) {
 	switch (symbol) {

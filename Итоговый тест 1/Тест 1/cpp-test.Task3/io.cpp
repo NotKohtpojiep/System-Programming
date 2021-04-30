@@ -1,5 +1,5 @@
-#ifdef  _CLASS_DEFINE_CONST
-#define _CLASS_DEFINE_CONST
+#ifndef _IOFILE_DEFINE_CONST
+#define _IOFILE_DEFINE_CONST
 #include <iostream>
 
 int readNumber() {

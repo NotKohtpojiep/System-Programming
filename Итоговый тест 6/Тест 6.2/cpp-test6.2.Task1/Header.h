@@ -36,9 +36,9 @@ struct Card
 };
 
 
-std::string getCardRankName(CardRank rank);
+std::string getCardRankName(const CardRank rank);
 
-std::string getCardSuitName(CardSuit suit);
+std::string getCardSuitName(const CardSuit suit);
 
 int getRandomNumber(const int min, const int max);
 
@@ -47,4 +47,4 @@ std::array<Card, static_cast<int>(CardRank::ENUM_END)* static_cast<int>(CardSuit
 void swapCards(Card* firstCard, Card* secondCard);
 
 std::array<Card, static_cast<int>(CardRank::ENUM_END)* static_cast<int>(CardSuit::ENUM_END)>
-shuffleDeck(std::array<Card, static_cast<int>(CardRank::ENUM_END)* static_cast<int>(CardSuit::ENUM_END)>* deck);
+shuffleDeck(const std::array<Card, static_cast<int>(CardRank::ENUM_END)* static_cast<int>(CardSuit::ENUM_END)>* deck);

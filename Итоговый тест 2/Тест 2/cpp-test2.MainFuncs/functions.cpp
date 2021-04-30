@@ -1,5 +1,4 @@
 #include <iostream>
-
 int readIntFromConsole(std::string message) {
 	int number;
 	std::cout << message;
